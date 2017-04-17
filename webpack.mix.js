@@ -23,7 +23,7 @@ mix.webpackConfig({
     srcRoot + "app.js"
   ],
   output: {
-      path: path.join(__dirname, 'public/js/dist'),
+      path: path.join(__dirname, 'public/js'),
       filename: 'bundle.min.js',
       publicPath: '/public/'
   },
