@@ -1,18 +1,8 @@
-console.log("toto");
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-const toto = [
-    "tata",
-    "titi"
-];
-
-const toto2 = [
-    ...toto,
-    "tata",
-    "titi"
-];
-
-const es6ArrowFunc = (prout) => {
-    return prout
-}
-
-console.log(es6ArrowFunc("prout"));
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);

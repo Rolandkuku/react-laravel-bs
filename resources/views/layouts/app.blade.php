@@ -77,11 +77,11 @@
                 </div>
             </div>
         </nav>
-
+        <div id="root"></div>
         @yield('content')
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/bundle.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
